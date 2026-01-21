@@ -1,8 +1,7 @@
-// 20. Triangle: A = H * L / 2   (here L = base)
-double base, height, area_tri;
-printf("Enter base and height of triangle: ");
-scanf("%lf %lf", &base, &height);
+# 20. Triangle: A = H * L / 2  (L = base)
+base = float(input("Enter base of triangle: "))
+height = float(input("Enter height of triangle: "))
 
-area_tri = (base * height) / 2.0;
+area_tri = (base * height) / 2
 
-printf("Triangle -> Area = %.2f\n", area_tri);
+print("Triangle -> Area =", area_tri)
