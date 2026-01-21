@@ -1,8 +1,7 @@
-// 19. Circle: A = 22/7 * R * R
-double radius, area_cir;
-printf("Enter radius of circle: ");
-scanf("%lf", &radius);
+# 19. Circle: A = 22/7 * R * R
+radius = float(input("Enter radius of circle: "))
 
-area_cir = (22.0 / 7.0) * radius * radius;
+area_cir = (22/7) * radius * radius
 
-printf("Circle -> Area = %.2f\n", area_cir);
+print("Circle -> Area =", area_cir)
+
